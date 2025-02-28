@@ -1,0 +1,14 @@
+// Write a program to print last digit of a given number
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        int a;
+        printf("Enter number ");
+        scanf("%d",&a);
+        printf("Your last digit is %d",a%10);
+        
+    getch();
+}                       
