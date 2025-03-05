@@ -1,0 +1,12 @@
+//Write a program to find ASCII code of the character '+'. 
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        char ch = '+';
+        printf("ASCII code of the character '+' is %d",ch);
+        
+    getch();
+}
