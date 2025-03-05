@@ -1,0 +1,16 @@
+// Write a program to input a three digit number and display the sum of the digits. 
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        int x,y;
+        printf("Enter a three digit number ");
+        scanf("%d",&x);
+        y= x/100 + x/10%10 + x%10;
+        printf("The sum of the digits %d",y);
+     
+        
+    getch();
+}
