@@ -1,0 +1,15 @@
+// Write a program to make the last digit of a number stored in a variable as zero. 
+// (Example - if x=2345 then make it x=2340) 
+
+ #include<stdio.h>
+ #include<conio.h>
+ 
+    void main()
+ {
+        int x;
+        printf("Enter the number ");
+        scanf("%d",&x);
+        printf("your number last digit replace a 0 = %d",x/10*10);
+        
+    getch();
+ }
