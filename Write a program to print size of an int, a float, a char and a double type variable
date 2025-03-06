@@ -1,0 +1,17 @@
+// Write a program to print size of an int, a float, a char and a double type variable 
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        int a,b,c,d;
+        a = sizeof(int);
+        b = sizeof(char);
+        c = sizeof(float);
+        d = sizeof(double);
+        printf("int size is %d\nchar size is %d\nfloat size is %d\ndouble size is %d",a,b,c,d);
+
+        
+    getch();
+}
