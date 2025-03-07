@@ -1,0 +1,15 @@
+// Write a program to check whether a given number is positive or non positive.
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        int x;
+        printf("Enter a number ");
+        scanf("%d",&x);
+        
+        printf(x>0?"This number is positive": "This number is non positive");
+       
+    getch();
+}
