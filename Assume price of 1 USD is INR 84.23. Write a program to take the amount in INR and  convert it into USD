@@ -1,0 +1,14 @@
+/* Assume price of 1 USD is INR 84.23. Write a program to take the amount in INR and
+ convert it into USD */
+
+ #include<stdio.h>
+ #include<conio.h>
+ 
+    void main()
+ {
+        int rs;
+        printf("Enter amount in INR ");
+        scanf("%d",&rs);
+        printf("%d INR convert into %.3f USD",rs,rs/84.23);
+    getch();
+ }
