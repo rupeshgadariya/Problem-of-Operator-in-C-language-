@@ -1,1 +1,0 @@
-# Problem-of-Operator-in-C-language-
