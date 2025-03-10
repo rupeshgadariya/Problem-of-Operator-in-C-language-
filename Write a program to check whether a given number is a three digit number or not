@@ -1,0 +1,22 @@
+// Write a program to check whether a given number is a three digit number or not. 
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        int x;
+        printf("Enter a number ");
+        scanf("%d",&x);
+
+        if (x/10==0)
+        printf("%d is not three digit number",x);
+        else if (x/100==0)
+        printf("%d is not three digit number",x);
+        else if (x/1000==0)
+        printf("%d is three digit number",x);
+        else
+        printf("%d is not three digit number",x);
+
+    getch();
+}    
