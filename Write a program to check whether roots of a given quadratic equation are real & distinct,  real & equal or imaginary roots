@@ -1,0 +1,22 @@
+/* Write a program to check whether roots of a given quadratic equation are real & distinct,
+ real & equal or imaginary roots */
+
+ #include<stdio.h>
+ #include<conio.h>
+ 
+    void main()
+ {
+        int a,b,c,dis;
+        printf("Enter a number in a ");
+        scanf("%d",&a);
+        printf("Enter a number in b ");
+        scanf("%d",&b);
+        printf("Enter a number in c ");
+        scanf("%d",&c);
+                            dis = b*b - 4*a*c;
+
+      printf( (dis>0)? "Real and Distinct Roots": (dis<0)? 
+                         "Imaginary Roots":"Real and Equal Roots");
+     
+    getch();
+ }
